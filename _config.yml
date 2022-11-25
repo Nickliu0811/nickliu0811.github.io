@@ -13,12 +13,12 @@ timezone: '' # 使用系統時間即可
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: http://example.com # 你的正式部落格網址
+permalink: :year/:title/ # 文章路徑
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # 設置 false 則會永遠移除 index.html
+  trailing_html: false # 設置 false 則會永遠移除 html
 
 # Directory
 source_dir: source
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # 設定對應的文章原始編輯檔
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -68,7 +68,9 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+中文分類: english-category # 一個分類一列
 tag_map:
+中文標籤: english-tag # 一個標籤一列
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
