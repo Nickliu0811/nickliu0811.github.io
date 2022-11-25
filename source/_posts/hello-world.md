@@ -1,38 +1,41 @@
 ---
-title: Hello World
+title: Hexo 指令備忘錄
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+## Quick Start 快速啟動
 
-### Create a new post
+### Create a new post 創建文章
 
 ``` bash
-$ hexo new "My New Post"
+$ hexo new "文章名稱"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+更多信息: [寫作](https://hexo.io/docs/writing.html)
 
-### Run server
+### Run server 運行主機
 
 ``` bash
 $ hexo server
+$ hexo s
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+更多信息: [服務主機](https://hexo.io/docs/server.html)
 
-### Generate static files
+### Generate 產生靜態文件
 
 ``` bash
 $ hexo generate
+$ hexo g
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+更多信息: [生成](https://hexo.io/docs/generating.html)
 
-### Deploy to remote sites
+### Deploy  部署到遠程站點
 
 ``` bash
 $ hexo deploy
+$ hexo clean && hexo deploy
+
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+更多信息: [部署](https://hexo.io/docs/one-command-deployment.html)
