@@ -3,6 +3,7 @@ title: Hexo 指令備忘錄
 ---
 
 ## Quick Start 快速啟動
+<!-- more  -->
 
 ### Create a new post 創建文章
 
@@ -50,3 +51,8 @@ npm install hexo-deployer-git
 
 npm install hexo-deployer-git --save
 ```
+
+### 圖片上傳
+
+
+
