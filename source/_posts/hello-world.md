@@ -5,7 +5,12 @@ cover: https://picsum.photos/1240/900?random=10
 
 ## Quick Start 快速啟動 test
 <!-- more  -->
+```
+hexo clean
+hexo g -d
+hexo s
 
+```
 ### Create a new post 創建文章
 
 ``` bash
@@ -88,3 +93,4 @@ primary 提示塊標籤
 
 
 
+###### tags: `hexo` `學習`
