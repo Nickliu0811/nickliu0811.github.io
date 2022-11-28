@@ -1,0 +1,25 @@
+menu:
+  首頁: / || fas fa-home
+  時間軸: /archives/ || fas fa-archive
+  標籤: /tags/ || fas fa-tags
+  分類: /categories/ || fas fa-folder-open
+  清單||fa fa-heartbeat:
+    音樂: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    電影: /movies/ || fas fa-video
+  友鏈: /link/ || fas fa-link
+  關於: /about/ || fas fa-heart
+
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
