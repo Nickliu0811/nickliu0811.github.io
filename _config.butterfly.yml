@@ -82,7 +82,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/nick002.jpg
+  img: /imgtest/nick002.jpg
   effect: false
 
 # 禁用所有橫幅圖像
