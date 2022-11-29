@@ -1,7 +1,12 @@
 ---
 title: 三貂嶺合谷瀑布之旅
 date: 2006-08-13 00:28:08
-tags: '旅遊' '三貂嶺' '古道' '散步' '阿母'
+tags: 
+    - '旅遊'
+    - '三貂嶺'
+    - '古道'
+    - '散步'
+    - '阿母'
 categories: '國內旅遊'
 cover: https://i.imgur.com/VhmFoAS.jpg
 ---
