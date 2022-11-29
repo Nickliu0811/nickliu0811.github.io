@@ -1,14 +1,17 @@
 ---
 title: Hexo 指令備忘錄
+date: 2022-11-25 21:55:58
+tags: ['hexo', 'butterfly', '程式']
+categories: '程式語法'
 cover: https://picsum.photos/1240/900?random=10
+highlight_shrink: false
 ---
-
 ## Quick Start 快速啟動 test
 <!-- more  -->
 ```
-hexo clean
-hexo g -d
-hexo s
+hexo clean 或 hexo c    清快取 注意會請除public
+hexo g -d   重建靜態網站 並上傳
+hexo s      服器
 
 ```
 ### Create a new post 創建文章
@@ -31,7 +34,7 @@ $ hexo s
 ``` bash
 $ hexo generate
 $ hexo g
-$ hexo g -d   #不知道加D做什麼
+$ hexo g -d   
 ```
 更多信息: [生成](https://hexo.io/docs/generating.html)
 
