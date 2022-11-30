@@ -1,6 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
+updated:
 tags: ['登山', '旅遊', '古道', '阿母', '散步'] #文章標籤
 categories: '國內旅遊' #文章分類
 keywords: ['油桐花', '小粗坑古道', '石門山'] #文章關鍵字
