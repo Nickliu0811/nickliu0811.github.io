@@ -39,6 +39,9 @@ social:
   fab fa-github: https://github.com/Nickliu0811 || Github
   fas fa-envelope: mailto:nick8.liu@gmail.com || Email
   fa-solid fa-book: https://nickliu0811.github.io || blog
+  fa-brands fa-facebook: https://www.facebook.com/nickliu6/ || facebook
+  fa-brands fa-youtube: https://youtube.com/nickliu6 || youtube
+  # fa-brands fa-google-plus: https://plus.google.com/yourname || google
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
