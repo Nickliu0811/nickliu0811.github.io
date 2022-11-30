@@ -93,7 +93,27 @@ primary 提示塊標籤
 ![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)
 {% endgallery %}
 
+Youtube
+在文章中插入 Youtube 影片。
 
+        {% youtube video_id [type] [cookie] %}
+Examples
+影片
+
+        {% youtube lJIrF4YjHfQ %}
+播放列表
+
+        {% youtube PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' %}
+隱私模式
+
+禁止 YouTube cookie
+
+        {% youtube lJIrF4YjHfQ false %}
+        {% youtube PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' false %}
+Vimeo
+在文章中插入 Vimeo 影片。
+
+        {% vimeo video_id %}
 
 
 ###### tags: `hexo` `學習`
