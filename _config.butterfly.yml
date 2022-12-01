@@ -189,7 +189,7 @@ toc:
   page: false
   number: true
   expand: false
-  style_simple: false # for post
+  style_simple: true # for post
 
 post_copyright:
   enable: false
@@ -231,7 +231,7 @@ photofigcaption: false
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
-post_pagination: 1
+post_pagination: 2
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:

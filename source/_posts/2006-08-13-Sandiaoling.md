@@ -2,7 +2,7 @@
 title: 三貂嶺合谷瀑布之旅
 date: 2006-08-13 00:28:08
 tags: ['登山', '旅遊', '古道', '阿母', '散步']
-categories: '國內旅遊'
+categories: '登山活動'
 keywords: ['三貂嶺', '基隆', '瑞芳', '瀑布', '平溪線']
 cover: https://i.imgur.com/VhmFoAS.jpg
 highlight_shrink: false

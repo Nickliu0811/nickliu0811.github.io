@@ -151,5 +151,49 @@ font:
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 ```
+{% note simple %}
+默認 提示塊標籤
+{% endnote %}
+
+{% note default simple %}
+default 提示塊標籤
+{% endnote %}
+
+{% note primary simple %}
+primary 提示塊標籤
+{% endnote %}
+
+{% note success simple %}
+success 提示塊標籤
+{% endnote %}
+
+{% note info simple %}
+info 提示塊標籤
+{% endnote %}
+
+{% note warning simple %}
+warning 提示塊標籤
+{% endnote %}
+
+{% note danger simple %}
+danger 提示塊標籤
+{% endnote %}
+
+
+{% note default modern %}
+default 提示塊標籤
+{% endnote %}
+
+{% note primary flat %}
+primary 提示塊標籤
+{% endnote %}
+
+{% note warning disabled %}
+warning 提示塊標籤
+{% endnote %}
+
+{% note success no-icon %}
+success 提示塊標籤
+{% endnote %}
 
 ###### tags: `hexo` `學習`
