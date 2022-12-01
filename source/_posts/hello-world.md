@@ -116,4 +116,31 @@ Vimeo
         {% vimeo video_id %}
 
 
+根目錄
+.
+├── public        // 執行 hexo generate 後，輸出的靜態網頁
+├── scaffolds     // 模板。Hexo會根據scaffold來建立新文章/新頁面
+├── scripts       // 存放自定義 js 文件
+├── source        
+|   ├── _drafts   // 草稿文章
+|   └── _posts    // 發佈文章
+├── themes        // Hexo 主题文件，Butterfly 主題的樹狀結構請看下面
+├── _config.yml   // 整個 Blog 的配置
+└── package.json  // 已下載的掛件及其版本 version no.
+
+Butterfly 主題目錄
+.
+└──themes
+   └── Butterfly
+       ├── languages    // 主題語言字眼
+       ├── layout       // pug 文件，後會渲染成 html
+       ├── scripts      // js 文件
+       ├── source        
+       |   ├── css      // styl 文件，後會渲染成 css
+       |   ├── img      // 主題配置用到的圖片
+       |   └── js       // js 文件
+       └── _config.yml  // Butterfly 主題配置
+
+
+
 ###### tags: `hexo` `學習`

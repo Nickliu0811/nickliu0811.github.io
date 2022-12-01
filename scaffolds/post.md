@@ -9,8 +9,14 @@ description: #文章描述
 top_img: #文章頂部圖片
 cover:  # 文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false/圖片地址/留空)
 highlight_shrink: # 配置代碼框是否展開
-{% gallery %}
-{% endgallery %}
+comments: # 是否顯示評論（除非設置false,可以不寫）
+toc:  # 是否顯示toc （除非特定文章設置，可以不寫）
+toc_number: #是否顯示toc數字 （除非特定文章設置，可以不寫）
+mathjax:
+katex:
+hide:
 ---
 
 # 大標題文字
+{% gallery %}
+{% endgallery %}

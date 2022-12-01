@@ -109,6 +109,7 @@ highlight_shrink:
 
 ![image](https://lh6.googleusercontent.com/-xgeduF1-UiE/SSA1WXNvncI/AAAAAAAAAnM/ZcDOBXvVCHY/w1024-h768-no/2day-161.JPG)
 {% endgallery %}
+
 ### **京都~祇園**
 
 來祇園做啥呢,當然要來看藝妓及感受一下祇園,和老婆在祇園的小巷子內穿梭,不時看到藝妓迎面走來,祇園特色是店內裡面都不知道賣什麼東西,都好神祕,坐在祇園街上的小板登,其實雙腳早已累了,再逛了一下新祇園,漸漸的晚上來臨,路上人車也變多了,下班了吧,坐上阪急電鐵,老婆已經
