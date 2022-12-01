@@ -108,3 +108,16 @@ deploy:
   repo: https://github.com/Nickliu0811/nickliu0811.github.io.git # 貼上剛剛複製的 Github Repository 網址
   branch: master # 預設分支名稱
   message: "Blog public update" # Commit 訊息
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10
+  hub:
+  content:
+  content_limit: 250
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:

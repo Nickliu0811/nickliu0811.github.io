@@ -141,6 +141,15 @@ Butterfly 主題目錄
        |   └── js       // js 文件
        └── _config.yml  // Butterfly 主題配置
 
+/_config.butterfly.yml
 
+```
+//文字大小
+font:
+  global-font-size: 18px
+  code-font-size: 18px
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+```
 
 ###### tags: `hexo` `學習`
