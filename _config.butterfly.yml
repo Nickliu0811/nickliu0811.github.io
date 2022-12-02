@@ -557,30 +557,30 @@ aside:
       link: https://github.com/Nickliu0811
   card_announcement:
     enable: true
-    content: '個人內容建置中'  #公告
+    content: '回歸-這是一個沒有廣告的架構，又能再次放置我的幸福人生'  #公告
   card_recent_post:
     enable: true
-    limit: 5 # if set 0 will show all
+    limit: 5 # 最新文章數量
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
-  card_categories:
+  card_categories: #分類
     enable: true
-    limit: 8 # if set 0 will show all
+    limit: 16 # 分類 數量 超過屏蔽 
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
-    limit: 40 # if set 0 will show all
-    color: false
+    limit: 40 # 標籤數量
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
-  card_archives:
+  card_archives: # 歸檔設定
     enable: true
     type: monthly # yearly or monthly
     format: YYYY年MM月 # eg: YYYY年MM月
-    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    order: -1 # 排序。 1、asc為升序； -1, desc 為降序
     limit: 8 # if set 0 will show all
     sort_order: # Don't modify the setting unless you know how it works
-  card_webinfo:
+  card_webinfo: #網站資訊
     enable: true
     post_count: true
     last_push_date: true
