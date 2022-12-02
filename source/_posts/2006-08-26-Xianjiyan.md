@@ -1,8 +1,8 @@
 ---
-title: 仙跡岩步道
+title: 登山-仙跡岩步道
 date: 2006-08-26 21:55:58
 tags: ['登山', '旅遊', '古道', '阿母', '散步']
-categories: '登山活動'
+categories: 登山活動
 keywords: ['仙跡岩步道', '蟾蜍山', '景美']
 description: '登山活動-景美的仙跡岩'
 top_img: 

@@ -1,12 +1,12 @@
 ---
-title: 五峰旗瀑布 2006-09-01
+title: 休閒-五峰旗瀑布 2006-09-01
 tags:
   - 登山
   - 旅遊
   - 古道
   - 阿母
   - 散步
-categories: 登山活動
+categories: 休閒活動
 keywords:
   - 五峰旗瀑布
 top_img: 

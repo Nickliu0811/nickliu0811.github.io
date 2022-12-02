@@ -1,5 +1,5 @@
 ---
-title: Hexo 指令備忘錄
+title: 程式-Hexo 指令備忘錄
 date: 2022-11-25 21:55:58
 tags: ['hexo', 'butterfly', '程式']
 categories: '程式語法'

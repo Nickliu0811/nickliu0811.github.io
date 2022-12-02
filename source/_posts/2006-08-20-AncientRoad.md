@@ -1,8 +1,8 @@
 ---
-title: 油桐花古道(小粗坑古道) 石門山
+title: 登山-油桐花古道(小粗坑古道)石門山
 date: 2006-08-20 17:22:25
 tags: ['登山', '旅遊', '古道', '阿母', '散步'] 
-categories: '登山活動'
+categories: 登山活動
 keywords: ['油桐花', '小粗坑古道', '石門山']
 cover: https://i.imgur.com/HBnxVgb.jpg
 ---
