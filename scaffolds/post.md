@@ -39,3 +39,4 @@ sticky: 1 #置頂
 {% note info flat %}
 info 提示塊標籤
 {% endnote %}
+{% inlineImg https://XXX/fFA2HbW.png 200px %}

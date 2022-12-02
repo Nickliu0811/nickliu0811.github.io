@@ -17,7 +17,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light  #代碼高亮主題  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: false  #代碼高亮主題  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true #代碼複製 copy button
 highlight_lang: true # show the code language
 highlight_shrink: false #代碼框展開，有 '>' 打開 
@@ -526,7 +526,7 @@ subtitle:
 
 # Loading Animation (加載動畫)
 preloader:
-  enable: true
+  enable: false
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -761,8 +761,12 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    # - <link rel="stylesheet" href="/self/duotone.css">
+    - <link rel="stylesheet" href="/self/Kimbiedark.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    - <script src="/_data/hexo_resize_image.js"></script>
+    # - <script src="<%- config.root %>js/hexo_resize_image.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
