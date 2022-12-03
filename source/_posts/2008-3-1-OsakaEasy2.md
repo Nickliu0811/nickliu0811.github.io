@@ -25,6 +25,7 @@ description:
 top_img:
 cover: https://lh4.googleusercontent.com/-jU3OKgxRVLw/SSA16xGn0kI/AAAAAAAAAok/lYGpoq0eO6Q/w1024-h768-no/3day-166.JPG
 highlight_shrink:
+toc_style_simple: true
 ---
 
 ## 大阪二度蜜月 2008-3-1

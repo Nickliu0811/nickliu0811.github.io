@@ -6,6 +6,7 @@ categories: '登山活動'
 keywords: ['三貂嶺', '基隆', '瑞芳', '瀑布', '平溪線']
 cover: https://i.imgur.com/VhmFoAS.jpg
 highlight_shrink: false
+toc_style_simple: true
 ---
 
 # 2006.08.13 [台北平溪] 三貂嶺合谷瀑布之旅

@@ -20,6 +20,7 @@ cover: https://lh5.googleusercontent.com/-s2JuANAa_58/Uw8UoNXlagI/AAAAAAAAR0w/dC
 highlight_shrink:
 comments:
 toc:
+toc_style_simple: true
 ---
 
 # 五峰旗瀑布 

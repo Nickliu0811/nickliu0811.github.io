@@ -18,6 +18,7 @@ cover: https://i.imgur.com/fFA2HbW.png
 highlight_shrink:
 comments:
 toc:
+toc_style_simple: true
 ---
 
 

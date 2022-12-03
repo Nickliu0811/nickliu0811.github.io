@@ -15,6 +15,7 @@ toc_number: #是否顯示toc數字 （除非特定文章設置，可以不寫）
 mathjax:
 katex:
 hide:
+toc_style_simple: true
 ---
 
 # 小夫妻-我的最愛

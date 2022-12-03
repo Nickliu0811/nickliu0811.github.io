@@ -8,6 +8,7 @@ description: '登山活動-景美的仙跡岩'
 top_img: 
 cover: https://i.imgur.com/YOn40Kk.jpg
 highlight_shrink: false
+toc_style_simple: true
 ---
 
 # 2006.08.26 [文山區] 仙跡岩步道

@@ -15,10 +15,8 @@ description:
 cover: https:i.imgur.com/FEmneR5.png
 comments:
 toc:
+toc_style_simple: true
 ---
-{% note info flat %}
-info 提示塊標籤
-{% endnote %}
 
 # ThinkPHP
 

@@ -14,6 +14,7 @@ updated:
 description:
 cover: https://i.imgur.com/czRDyVJ.png
 toc:
+toc_style_simple: true
 ---
 
 # [陽明山]再登七星山

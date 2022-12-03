@@ -5,6 +5,7 @@ tags: ['登山', '旅遊', '古道', '阿母', '散步']
 categories: 登山活動
 keywords: ['油桐花', '小粗坑古道', '石門山']
 cover: https://i.imgur.com/HBnxVgb.jpg
+toc_style_simple: true
 ---
 
 # 2006.08.20 [桃園龍潭] 油桐花古道(小粗坑古道) 石門山

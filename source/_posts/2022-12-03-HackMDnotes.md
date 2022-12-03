@@ -18,11 +18,9 @@ description:
 cover: https://i.imgur.com/KFi7JMM.png
 comments:
 toc:
+toc_style_simple: true
 ---
 
-{% youtube 條碼 %}
-{% gallery %}
-{% endgallery %}
 {% note info flat %}
 info 提示塊標籤
 {% endnote %}
