@@ -20,14 +20,14 @@ menu:
 highlight_theme: false  #代碼高亮主題  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true #代碼複製 copy button
 highlight_lang: true # show the code language
-highlight_shrink: false #代碼框展開，有 '>' 打開 
+highlight_shrink: false # false代碼框展開， true 有 '>' 才打開 
 highlight_height_limit: false # unit: px
-code_word_wrap: false
+code_word_wrap: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: false
+  enable: true
   copyright:
     enable: false
     limit_count: 50
@@ -405,7 +405,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -698,7 +698,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)

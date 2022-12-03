@@ -2,6 +2,11 @@
 title: {{ title }}
 date: {{ date }}
 updated:
+categories: 
+  - 國內旅遊
+  - 登山活動
+  - 露營活動
+  - 程式語法 #文章分類
 tags: 
   - 露營
   - 旅遊
@@ -12,10 +17,6 @@ tags:
   - 古道
   - 阿母
   - 散步 #文章標籤
-categories: 
-  - 國內旅遊
-  - 登山活動
-  - 露營活動 #文章分類
 keywords: 
   - 油桐花
   - 小粗坑古道
@@ -32,11 +33,13 @@ toc:  # 是否顯示toc （除非特定文章設置，可以不寫）
 sticky: 1 #置頂
 ---
 
-# 大標題文字
-{% youtube 8j9j8bgUtb4 %}
+{% youtube 條碼 %}
 {% gallery %}
 {% endgallery %}
 {% note info flat %}
 info 提示塊標籤
 {% endnote %}
 {% inlineImg https://XXX/fFA2HbW.png 200px %}
+
+# 大標題文字
+

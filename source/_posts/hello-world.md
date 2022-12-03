@@ -3,7 +3,7 @@ title: 程式-Hexo 指令備忘錄
 date: 2022-11-25 21:55:58
 tags: ['hexo', 'butterfly', '程式']
 categories: '程式語法'
-cover: https://picsum.photos/1240/900?random=10
+cover: https://i.imgur.com/iOVeEc5.png
 highlight_shrink: false
 ---
 ## Quick Start 快速啟動 test
