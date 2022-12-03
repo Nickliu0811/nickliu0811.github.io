@@ -12,7 +12,7 @@ sticky:
 date: 2022-10-01 12:09:27
 updated:
 description:
-cover: https:i.imgur.com/FEmneR5.png
+cover: https://i.imgur.com/FEmneR5.png
 comments:
 toc:
 toc_style_simple: true
