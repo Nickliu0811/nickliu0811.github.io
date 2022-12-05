@@ -47,7 +47,12 @@ info 提示塊標籤
 ```
 
 > conment 引言  加上[]   可以插入名稱、日期、連接 例如 [name=Nick liu] [time=Sun, Nov 27, 2022 2:35 PM] [color=#51d177] [從無到有學習HackMD](https://www.youtube.com/watch?v=r5FOR-YU33c "從無到有學習HackMD")
->> [color=#5ed5e5][TOC]
+>> 內縮引言
+
+打到這就發現很多問題，效果很多都`失效`
+原本這是在 HackMD的筆記 想複製過來作一篇筆記，結果發現同樣是使用Markdown語法支援程度上還是有差的
+
+那就 改移到[hackMD吧](https://hackmd.io/@nickliu/BJppRP_Ii)
 
 ### ==列表清單==
 
@@ -63,22 +68,13 @@ info 提示塊標籤
 - 列表的運行
 - 列表的顯示
 
-* 星號也可當列表
-* 星號也一樣哦
+星號也可當列表
 
-+ 加號也是列表
-+ 會用了吧
-  + 縮排的用法
-    + 這也是縮排嗎
-    + 多層項次
-      + 試看
-        + 隔二空格
-        - 減號也試
-      + 如何 
+加號也是列表
 
 ### ==數列==
 
-```
+```text
 1.
 需數字開頭 數字 + 反斜線 + .   ex.2019\.
 數字的號碼 無關順序
@@ -91,19 +87,7 @@ info 提示塊標籤
     5. 123
     6. 345
 5. 567
-6. 
-
-### ==check list 待辦清單==
-
-```markdown
-- [x] 工作事項1
-- [ ] 工作事項2
-- [ ] 工作事項3
-```
-
-- [x] 工作事項1
-- [ ] 工作事項2
-- [ ] 工作事項3
+6.
 
 ### ==區塊程式碼==
 
@@ -112,7 +96,7 @@ info 提示塊標籤
 
 方法二:
     2.三個上下反引號   ```+ 語言   .=行碼  +編號開始 !折行
-    
+
 ```php=56!
 for (let i = 0; i < 10; i++) {
   setTimeout(function () {
@@ -180,103 +164,13 @@ ___
 
 ```text
     ++這是底線文字++
-```    
+```
 
 ++這是底線文字++
 
-### ==旁註標記==
-
-```text
-  {旁註標記|測試}
-```
-
-{旁註標記|測試}
-
-### ==重點==
-
-```text
-==重點標示==
-```
-
-文字中要顯示重點可以前後加上等於二個==重點標示==
-
-### ==警示區塊==
-
-```
-:::success
-耶 :tada:
-:::
-```
-
-:::success
-耶 :tada:
-:::
-
----
-
-```
-:::info
-這是訊息 :mega:
-:::
-```
-
-:::info
-這是訊息 :mega:
-:::
-
----
-
-```
-:::warning
-注意 :zap:
-:::
-```
-
-:::warning
-注意 :zap:
-:::
-
----
-
-```
-:::danger
-喔不 :fire:
-:::
-```
-
-:::danger
-喔不 :fire:
-:::
-
----
-
-```
-:::spoiler 點選顯示更多內容
-找到我了！ :stuck_out_tongue_winking_eye:
-:::
-```
-
-:::spoiler 點選顯示更多內容
-找到我了！ :stuck_out_tongue_winking_eye:
-:::
-
----
-
-```
-:::spoiler {state="open"} 預設展開摺疊內容
-找到我了！ :stuck_out_tongue_winking_eye:
-:::
-```
-
-:::spoiler {state="open"} 預設展開摺疊內容
-找到我了！ :stuck_out_tongue_winking_eye:
-:::
-
----
-
 ### ==刪除線==
 
-```
+```text
     ~~刪除線用法~~
 ```
 
@@ -284,22 +178,19 @@ ___
 
 ### ==上標==
 
-```
+```text
     文字的上標<sup>用法 </sup>
-    ^2^
 ```
 
 文字的上標<sup>用法 </sup>
-12345^2^
 
 ### ==下標==
 
-```
+```text
     文字的下標<sub>用法 </sub>
-    ~2~
 ```
+
 文字的下標<sub>用法 </sub>
-文字的~下標用法~
 
 ### ==連結==
 
@@ -307,7 +198,7 @@ ___
 [] 說明
 () 連結
 
-```
+```text
 [Google](https://www.google.com.tw/)
 ```
 
@@ -332,10 +223,9 @@ ___
 **基本用法1:**
 ![ ]：括號的內容也並非必填，提示文字。
 ( )：圖片連結位置
-=200x: 調整圖片尺寸 設定為寬度
 範例:
 
-    ![](https://picsum.photos/300/200?random=10 =200x) 
+![](https://picsum.photos/300/200?random=10)
 
 **進階用法:**
 
@@ -345,22 +235,25 @@ ___
 
 [id]: https://picsum.photos/600/100?random=10
 
-
 萬用圖片路徑(一直變動)
 
-    https://picsum.photos/300/200?random=10
+```text
+https://picsum.photos/300/200?random=10
+```
 
-![](https://picsum.photos/300/300?random=10 =200x)
+![](https://picsum.photos/300/300?random=10)
 <img src="https://picsum.photos/500/200?random=10" class="w-50">
 
 方法一：嵌入HTML代码
 使用img标签
-```
+
+```text
  <img src="./xxx.png" width = "300" height = "200" alt="图片名称" align=center />
  ```
 
 如果需要居中的话只要在外面包围div标签即可
-```
+
+```text
 <div  align="center">    
 ...
 </div>
@@ -369,116 +262,18 @@ ___
 方法二：使用支持图片大小更改操作的 Mou 编辑器
 
 使用如下语法
-```
+
+```text
 ![](./pic/pic1_50.png =100x100)
 ```
 
-
 直接在图片后面加上对应的CSS样式即可
-```
+
+```text
 ![test image size](url){:class="img-responsive"}
 ![test image size](url){:height="50%" width="50%"}
 ![test image size](url){:height="100px" width="400px"}
 ```
-## UML 圖表
-
-### ==循序圖==
-> 更多關於 **循序圖** 語法 [在這裡](http://bramp.github.io/js-sequence-diagrams/).
-
-您可以像是以下使用循序圖：
-
-```sequence
-艾莉絲->包柏: 哈摟，你好嗎？
-Note right of 包柏: 包柏思考中
-包柏-->艾莉絲: 我很好，謝謝！
-Note left of 艾莉絲: 艾莉絲回應
-艾莉絲->包柏: 最近過得怎樣？
-```
-
-### ==流程圖==
-> 更多關於 **流程圖** 語法 [在這裡](http://adrai.github.io/flowchart.js/).
-
-```flow
-st=>start: 開始
-e=>end: 結束
-op=>operation: 我的操作
-op2=>operation: 啦啦啦
-cond=>condition: 是或否？
-
-st->op->op2->cond
-cond(yes)->e
-cond(no)->op2
-```
-
-
-
-```flow
-st=>start: 開始|past:>http://www.google.com[blank]
-e=>end: 結束|future:>http://www.google.com
-op1=>operation: 我的操作|過去
-op2=>operation: 內容|當前
-sub1=>subroutine: 子程序|invalid
-cond=>condition: 是
-or 否?|已批准:>http://www.google.com
-c2=>condition: 好主意|rejected
-io=>inputoutput: 抓著一些東西...|future
-
-st->op1(right)->cond
-cond(yes, right)->c2
-cond(no)->sub1(left)->op1
-c2(yes)->io->e
-c2(no)->op2->e
-```
-
-
-### ==組織圖==
-> 更多關於 **組織圖** 語法 [在這裡](http://www.tonyballantyne.com/graphs.html)
-
-```graphviz
-digraph hierarchy {
-
-                nodesep=1.0 // increases the separation between nodes
-                
-                node [color=Red,fontname=Courier,shape=box] //All nodes will this shape and colour
-                edge [color=Blue, style=dashed] //All the lines look like this
-
-                公司組織圖->{人事部 研發部 業務部}
-                人事部->{總務部 HR部 發展部}
-                業務部->ITManager
-                {rank=same;ITManager 總務部 HR部 發展部}  // Put them on the same level
-}
-```
-
-### ==甘特圖==
-> 更多關於 **甘特圖** 語法 [在這裡](http://mermaid-js.github.io/mermaid)
-
-```mermaid
-gantt
-    title A Gantt Diagram
-
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    anther task      : 24d
-```
-
-> 更多關於 **abc** 語法 [在這裡](http://abcnotation.com/learn)
-> 更多關於 **vega** 語法 [在這裡](https://vega.github.io/vega-lite/docs)
-
-### ==小圖示運用==
-> 完整的表情符號列表 [在這裡](https://github.com/ikatyang/emoji-cheat-sheet)
-常用的符號
-[箭頭符號](https://github.com/ikatyang/emoji-cheat-sheet#arrow)
-[計算機](https://github.com/ikatyang/emoji-cheat-sheet#computer)
-:arrow_right: `:arrow_right:`
-:arrow_left: `:arrow_left:`
-:tada: `:tada:`
-:bulb: `:bulb:`
-:book: `:book:`
-:hourglass: `:hourglass:`
-
 
 <i class="fa fa-file-text"></i> **文件** `<i class="fa fa-file-text"></i>`
 <i class="fa fa-pencil fa-fw"></i> **編輯** `<i class="fa fa-pencil fa-fw"></i>`
