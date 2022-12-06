@@ -24,14 +24,11 @@ toc_style_simple: true
 ### 看似徒峭的山路  
 ![link text](https://i.imgur.com/JxcHdrR.png)	
 
-
 ### 其實上面是非常平緩的步道
 ![](https://i.imgur.com/glnGiv3.jpg)
 
-
 ### 可以遠望的涼亭
 ![](https://i.imgur.com/YOn40Kk.jpg)
-
 
 ## **～～路程記錄～～**
 

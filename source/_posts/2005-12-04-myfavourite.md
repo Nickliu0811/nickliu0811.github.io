@@ -33,3 +33,5 @@ toc_style_simple: true
 4. 小隆與小蓉第一次相遇的地點?
 5. 小隆與小蓉第一次約會的地點?
 6. 小蓉最喜歡吃什麼?
+
+![](https://lh3.googleusercontent.com/3oCZyAtn840stRFw96C6ap7zRCrYzcpkAqMv3Q3EE_3bvo90OTCg8DzvPD7h51CClJ8u4pMfPNDmW-t-qib_WfV7MdClmI0rAtKws-EkvHAJtiJ1pwF1gXRjq-vGCI8LXb3-dVCV6PM=w1920-h1080)
