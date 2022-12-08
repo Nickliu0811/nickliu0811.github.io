@@ -116,3 +116,4 @@ toc_style_simple: true
 {% note info flat %}
 位置:新竹縣尖石鄉玉峰村宇老1鄰9號
 {% endnote %}
+![Image](https://i.imgur.com/iqhOH2b.png)
