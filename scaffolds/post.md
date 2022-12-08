@@ -46,6 +46,16 @@ sticky: 1 #置頂
 info 提示塊標籤
 {% endnote %}
 {% inlineImg https://XXX/fFA2HbW.png 200px %}
+{% label 灰 %}
+{% label 藍色高亮 blue %}
+{% label 粉色高亮 pink %}
+{% label 紅色高亮 red %}
+{% label 紫色高亮 purple %}
+{% label 橘色高亮 orange %}
+{% label 綠色高亮 green %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-hand-point-right,blue larger %}
+{% btn 'https://nickliu0811.github.io/',紅色按鈕,fas fa-bullhorn-point-right,red larger %}
 
-# 大標題文字
+
+# {{ title }}
 
