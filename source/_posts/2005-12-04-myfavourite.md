@@ -3,7 +3,7 @@ title: 人生-小夫妻-我們結婚了
 date: 2005-12-04
 updated:
 tags: '結婚' #文章標籤
-categories: '我的入生' #文章分類
+categories: 我的人生 #文章分類
 keywords: '結婚記錄' #文章關鍵字
 description: #文章描述
 top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
