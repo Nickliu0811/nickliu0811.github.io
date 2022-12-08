@@ -1,5 +1,5 @@
 ---
-title: 露營-34露遇見嵨ㄨˇ繞 part2
+title: 露營No.34-遇見嵨ㄨˇ繞 part2
 tags:
   - 露營
   - 旅遊
@@ -10,7 +10,7 @@ keywords:
   - 遇見嵨ㄨˇ繞
   - 宇老
 top_img:
-sticky: 2
+sticky: 20
 date: 2022-11-19 13:30:26
 updated:
 description:
@@ -20,7 +20,6 @@ comments:
 toc:
 toc_style_simple: true
 ---
-
 
 # 牛奶糖第34露 遇見嵨ㄨˇ繞 - 新竹宇老
 
@@ -32,7 +31,7 @@ toc_style_simple: true
 ![Image](https://i.imgur.com/fFA2HbW.png)
 ![Image2](https://i.imgur.com/TKt84uM.png)
 
-## 天氣十分晴朗 放上大自然的風景照
+## {% label 天氣十分晴朗~放上大自然的風景照 pink %}
 
 ![清爽的陽光](https://i.imgur.com/u5eF8Zq.png)
 {% gallery %}
@@ -45,14 +44,14 @@ toc_style_simple: true
 ![Image](https://i.imgur.com/vD9wkLK.png)
 {% endgallery %}
 
-## 花花草草
+## {% label 花花草草 green %}
 
 {% gallery %}
 ![Image](https://i.imgur.com/BqPxwMz.png)
 ![Image](https://i.imgur.com/kY6TyNR.png)
 {% endgallery %}
 
-## 我們的營地
+## {% label 我們的營地 pink %}
 
 ![Image](https://i.imgur.com/q3RNRLG.png)
 {% gallery %}
@@ -61,12 +60,12 @@ toc_style_simple: true
 ![清晨好陽光的一天](https://i.imgur.com/vrNlrmt.png)
 {% endgallery %}
 
-## 夜晚的星空
+## {% label 夜晚的星空 purple %}
 
 ![Image](https://i.imgur.com/oK9zwPV.png)
 ![Image](https://i.imgur.com/pmkmPZZ.png)
 
-## 大合照
+## {% label 大合照 orange %}
 
 ![Image](https://i.imgur.com/FZcol8U.png)
 {% gallery %}
@@ -77,7 +76,7 @@ toc_style_simple: true
 ![Image](https://i.imgur.com/EYVbXPp.png)
 {% endgallery %}
 
-## 吃什麼好
+## {% label 吃什麼好 red %}
 
 {% gallery %}
 ![Image](https://i.imgur.com/mI3x1Ac.png)
@@ -87,7 +86,7 @@ toc_style_simple: true
 ![Image](https://i.imgur.com/PcXHKaU.png)
 {% endgallery %}
 
-## 模特兒
+## {% label 模特兒 pink %}
 
 ![Image](https://i.imgur.com/2X9LbPA.png)
 {% gallery %}
@@ -97,22 +96,22 @@ toc_style_simple: true
 ![Image](https://i.imgur.com/w5yrZ2V.png)
 {% endgallery %}
 
-## 狼人殺
+## {% label 狼人殺 blue %}
 
-小朋友玩不膩的狼人殺
+### `小朋友玩不膩的狼人殺`
 {% gallery %}
 ![Image](https://i.imgur.com/jxwfe1P.png)
 ![Image](https://i.imgur.com/ac6wt5T.png)
 {% endgallery %}
 
-居然被偷拍了
+#### `居然被偷拍了`
 ![Image](https://i.imgur.com/umO2tbe.png)
 
 不錯的營區 來了第二次了
 
-### 營地簡介
+### {% label 營地簡介 orange %}
 
-遇見嵨ㄨˇ繞
+### `遇見嵨ㄨˇ繞`
 [營地Facebook](https://www.facebook.com/profile.php?id=100063840106485)
 {% note info flat %}
 位置:新竹縣尖石鄉玉峰村宇老1鄰9號
