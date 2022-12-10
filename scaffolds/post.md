@@ -56,8 +56,13 @@ info 提示塊標籤
 {% label 紫色高亮 purple %}
 {% label 橘色高亮 orange %}
 {% label 綠色高亮 green %}
-{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-hand-point-right,blue larger %}
-{% btn 'https://nickliu0811.github.io/',紅色按鈕,fas fa-bullhorn-point-right,red larger %}
+{% btn 'https://nickliu0811.github.io/',青色,far fa-sharp fa-solid fa-link,larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,pink larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,red larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,purple larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,orange larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,blue larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,green larger %}
 
 # 大標
 

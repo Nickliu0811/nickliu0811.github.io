@@ -3,28 +3,13 @@ title: {{ title }}
 date: {{ date }}
 updated:
 categories: 
-  - 國內旅遊
-  - 國外旅行
-  - 單車活動
-  - 登山活動
   - 露營活動
-  - 休閒活動
-  - 程式語法 
-  - 模型遊戲
-  - 我的人生
-  - 日常體驗  #文章分類
 tags: 
   - 露營
   - 旅遊
   - 親子
   - 家庭
-  - 登山
-  - 古道
-  - 阿母
-  - 散步
   - 日記
-  - 心得
-  - 單車
 keywords: 
   - 油桐花
   - 小粗坑古道
@@ -56,12 +41,19 @@ info 提示塊標籤
 {% label 紫色高亮 purple %}
 {% label 橘色高亮 orange %}
 {% label 綠色高亮 green %}
-{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-hand-point-right,blue larger %}
-{% btn 'https://nickliu0811.github.io/',紅色按鈕,fas fa-bullhorn-point-right,red larger %}
+{% btn 'https://nickliu0811.github.io/',青色,far fa-sharp fa-solid fa-link,larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,pink larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,red larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,purple larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,orange larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,blue larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,green larger %}
 
 # 大標
 
 ## {% label 我們的營地 pink %}
+
+## {% label 參觀一下美美的營地 pink %}
 
 #### `今晚的飯店`
 
@@ -75,16 +67,17 @@ info 提示塊標籤
 
 {% endgallery %}
 
-## {% label 美麗的落日 blue %}
+## {% label 美麗的落日 orange %}
 
 
-## {% label 今晚吃什麼 orange %}
+## {% label 有什麼好吃的嗎? red %}
 
 {% gallery %}
 
 {% endgallery %}
 
 ## {% label 夜色昇起-今晚的特別活動開始囉 purple %}
+## {% label 夜色昇起-今晚的櫻花樹下的民宿特別美美 purple %}
 
 ####  `這視野真的很棒`
 
@@ -93,7 +86,7 @@ info 提示塊標籤
 {% gallery %}
 
 {% endgallery %}
-
+## {% label 清晨陽光讓營區更美了 green %}
 ## {% label 超驚艷的戶外電影院 green %}
 
 
@@ -107,7 +100,16 @@ info 提示塊標籤
 
 {% endgallery %}
 
-### `交通資訊:`
+## {% label 交通資訊: blue %}
+
+### `營地名`
+
+說明的話
+
+圖![]()
 
 {% note info flat %}
+[官網連結]()
+地址
 {% endnote %}
+![google地圖](https://i.imgur.com/9JyOeQp.png)
