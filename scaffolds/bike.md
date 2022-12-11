@@ -1,0 +1,120 @@
+---
+title: {{ title }}
+date: {{ date }}
+updated:
+categories: 
+  - 單車活動
+tags: 
+  - 單車
+  - 賽事
+  - 休閒
+keywords: 
+  - 油桐花
+  - 小粗坑古道
+  - 石門山  #文章關鍵字
+description: #文章描述
+top_img: #文章頂部圖片
+  - 'linear-gradient(20deg, #0507EB, #0C84F2, #01DBD2, #0CF26C, #30E80C)'
+  - 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
+  - 'linear-gradient(20deg, #E6B86E, #ED986B, #D6726B, #ED6BCC, #B266E3)'
+cover:  # 文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false/圖片地址/留空)
+highlight_shrink: # 配置代碼框是否展開
+comments: # 是否顯示評論（除非設置false,可以不寫）
+toc:  # 是否顯示toc （除非特定文章設置，可以不寫）
+toc_style_simple: true
+sticky: 50 #置頂
+---
+
+{% youtube 條碼 %}
+{% gallery %}
+{% endgallery %}
+{% note info flat %}
+info 提示塊標籤
+{% endnote %}
+{% inlineImg https://XXX/fFA2HbW.png 200px %}
+{% label 灰 %}
+{% label 藍色高亮 blue %}
+{% label 粉色高亮 pink %}
+{% label 紅色高亮 red %}
+{% label 紫色高亮 purple %}
+{% label 橘色高亮 orange %}
+{% label 綠色高亮 green %}
+{% btn 'https://nickliu0811.github.io/',青色,far fa-sharp fa-solid fa-link,larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,pink larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,red larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,purple larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,orange larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,blue larger %}
+{% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,green larger %}
+
+# 活動大標
+
+## {% label 比賽路線 blue %}
+
+{% note blue 'fa-solid fa-person-biking' flat %}
+XXX -> XXX
+總公里數:XXX公里
+總爬升高度: XXX公尺
+{% endnote %}
+
+
+## {% label 地圖高度 blue %}
+
+![google線路](https://i.imgur.com/ImoSNkg.png)
+
+![高度](https://i.imgur.com/bvYctEw.png)
+
+
+
+## {% label 製作下午茶甜點時間 pink %}
+
+{% gallery %}
+
+{% endgallery %}
+
+## {% label 美麗的落日 orange %}
+
+
+## {% label 有什麼好吃的嗎? red %}
+
+{% gallery %}
+
+{% endgallery %}
+
+## {% label 夜色昇起-今晚的特別活動開始囉 purple %}
+## {% label 夜色昇起-今晚的櫻花樹下的民宿特別美美 purple %}
+
+####  `這視野真的很棒`
+
+####  `有人偷閒打起麻將`
+
+{% gallery %}
+
+{% endgallery %}
+## {% label 清晨陽光讓營區更美了 green %}
+## {% label 超驚艷的戶外電影院 green %}
+
+
+{% gallery %}
+
+{% endgallery %}
+
+## {% label 收帳回家囉 %}
+
+{% gallery %}
+
+{% endgallery %}
+
+## {% label 交通資訊: blue %}
+
+### `營地名`
+
+說明的話
+
+圖![]()
+
+{% note info flat %}
+[官網連結]()
+地址
+{% endnote %}
+![google地圖](https://i.imgur.com/9JyOeQp.png)
