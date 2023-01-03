@@ -20,6 +20,7 @@ toc:
 
 # {% label 2022年最佳照片 pink %}
 
+![投票結果](https://i.imgur.com/uoxz0Ao.png)
 {% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}
 
 ## {% label 2022每月最佳照片-6歲 green %}
@@ -38,7 +39,7 @@ table th:nth-of-type(3) {
 
 | {% label 12月 purple %} | {% label 11月 purple %} | {% label 10月 purple %} |
 | :---: | :---: | :---: |
-| ![](https://lh3.googleusercontent.com/Kd40cZwn7jXOuL0fuegIP7-hh-92t6MwJTRIjwTPt6f4REkR-GaaZMgjMTZ-UxyNAiFuLs8c0bmJkSvL86xhcF9VZrfruMLmZrGVUUDrp8spbZAXWGgS-zUizX5GEVmeOnGgzkeA5WI=w1920-h1080) | ![](https://lh3.googleusercontent.com/5xuYUS5E1epOhqmU7dPErrSKqyvg5APqqBcmt0el8zd54N01m4JEKjL2DjtJIrmT52QmxCgKTRXpZzQPlHckI8sHiBpQH-SVlFXdPy-BhiiK0eAoFm-ChSqua6aFViBzjsxRpDssz3A=w1920-h1080) | ![](https://lh3.googleusercontent.com/HPLShnAJB4lOCn-KEZ47gnFvLuuYz2XDH3g1mlIUg0n6AHos6fAy9Ybe5Uhdyi6PR7zrBSzXCoGoL9erzNt8jiMszUoZAHqg4GHcOtdjAfAdAJ1xpX5ktG0WHQBtPmQk72WutDgVEVc=w1920-h1080) |
+| ![我愛露營](https://lh3.googleusercontent.com/Kd40cZwn7jXOuL0fuegIP7-hh-92t6MwJTRIjwTPt6f4REkR-GaaZMgjMTZ-UxyNAiFuLs8c0bmJkSvL86xhcF9VZrfruMLmZrGVUUDrp8spbZAXWGgS-zUizX5GEVmeOnGgzkeA5WI=w1920-h1080) | ![](https://lh3.googleusercontent.com/5xuYUS5E1epOhqmU7dPErrSKqyvg5APqqBcmt0el8zd54N01m4JEKjL2DjtJIrmT52QmxCgKTRXpZzQPlHckI8sHiBpQH-SVlFXdPy-BhiiK0eAoFm-ChSqua6aFViBzjsxRpDssz3A=w1920-h1080) | ![](https://lh3.googleusercontent.com/HPLShnAJB4lOCn-KEZ47gnFvLuuYz2XDH3g1mlIUg0n6AHos6fAy9Ybe5Uhdyi6PR7zrBSzXCoGoL9erzNt8jiMszUoZAHqg4GHcOtdjAfAdAJ1xpX5ktG0WHQBtPmQk72WutDgVEVc=w1920-h1080) |
 | {% label 9月 purple %} | {% label 8月 purple %} | {% label 7月 purple %} |
 | ![](https://lh3.googleusercontent.com/exC484Yy1wiqU5zFPZArIaR3Vw-sLC8bvESPoUWSh7ehX0Ybg1pGsH3_AbAV8P_1PN4_Y-FjSzlAs6mHq1WToME77O3cbX1GFMHzOtwaC29U-SnYB6gLWNO1b-t-ogVkNbsQkqp3zYI=w1920-h1080) | ![](https://lh3.googleusercontent.com/u3kPsRhliE9BkcKnROlxo_1ynRkEcRPzlc9Wlk1P0eQ4mjezLd1tnzrWHgviL4d2OvAn0l3hUtedEEhgsLcRKQhIbZW1qaM2DbdLSnd4JHWDVzEjmU6KzPDLgc9HDySiXwj9d6PxqIw=w1920-h1080) | ![](https://lh3.googleusercontent.com/4cA8GeyQeAlwb1urHK5HiDgcbDlDzEdursRhCKXkd_zxKSy28sQbjuuChxofCqTdMN9Np27XHFP2owRQ4sf8IK-CtXK_iWLttfS-mQ7tXwvI8jq85sWlIvwqblKqA5M5UoM0blZbCCc=w1920-h1080) |
 | {% label 6月 purple %} | {% label 5月 purple %} | {% label 4月 purple %} |
