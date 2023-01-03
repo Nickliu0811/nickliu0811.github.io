@@ -64,5 +64,19 @@ info 提示塊標籤
 {% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,blue larger %}
 {% btn 'https://nickliu0811.github.io/',青色按鈕,far fa-sharp fa-solid fa-link,green larger %}
 
+<style>
+table th:first-of-type {
+    width: 33%;
+}
+table th:nth-of-type(2) {
+    width: 33%;
+}
+table th:nth-of-type(3) {
+    width: 33%;
+}
+</style>
+
+{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}
+
 # 大標
 
