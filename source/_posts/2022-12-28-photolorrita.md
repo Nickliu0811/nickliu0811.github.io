@@ -20,8 +20,8 @@ toc:
 
 # {% label 2022年最佳照片 pink %}
 
-![投票結果](https://i.imgur.com/uoxz0Ao.png)
-{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}{% btn 'https://forms.gle/PxLhXgHmDJr51UjQ7',我要投票,far fa-sharp fa-solid fa-link,blue larger %}
+![2022最上鏡頭](https://i.imgur.com/2O2rpdn.png)
+![投票結果](https://i.imgur.com/xeie3FO.png)
 
 ## {% label 2022每月最佳照片-6歲 green %}
 
