@@ -61,6 +61,9 @@ npm install hexo-deployer-git
 （記得，不需要hexo init這條指令）
 
 npm install hexo-deployer-git --save
+
+#hexo 7.0後youtube標籤無法運行 安裝插件
+npm i hexo-tag-embed  
 ```
 
 ### 圖片上傳
