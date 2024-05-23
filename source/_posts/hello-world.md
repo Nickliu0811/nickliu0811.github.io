@@ -6,7 +6,7 @@ categories: '程式語法'
 cover: https://i.imgur.com/iOVeEc5.png
 highlight_shrink: false
 ---
-## Quick Start 快速啟動 test
+### Quick Start 快速啟動 test
 <!-- more  -->
 ```
 hexo clean 或 hexo c    清快取 注意會請除public
