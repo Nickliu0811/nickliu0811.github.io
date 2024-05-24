@@ -64,6 +64,31 @@ npm install hexo-deployer-git --save
 
 #hexo 7.0後youtube標籤無法運行 安裝插件
 npm i hexo-tag-embed  
+
+安装插件,在博客根目录[Blogroot]下打开终端，运行以下指令：
+npm install hexo-butterfly-tag-plugins-plus --save
+
+考虑到hexo自带的markdown渲染插件hexo-renderer-marked与外挂标签语法的兼容性较差，建议您将其替换成hexo-renderer-kramed
+npm uninstall hexo-renderer-marked --save
+npm install hexo-renderer-kramed --save
+
+添加配置信息，以下为写法示例 在站点配置文件_config.yml或者主题配置文件_config.butterfly.yml中添加
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  issues: false #issues标签开关
+  link:
+    placeholder: /img/link.png #link_card标签默认的图标图片
+  CDN:
+    anima: https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    ghcard_url: https://github-readme-stats.vercel.app #API仓库https://github.com/anuraghazra/github-readme-stats
 ```
 
 ### 標籤進階參數
