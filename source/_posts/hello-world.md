@@ -9,13 +9,14 @@ highlight_shrink: false
 ### Quick Start 快速啟動 test
 <!-- more  -->
 ```
+
 hexo clean 或 hexo c    清快取 注意會請除public
 hexo g -d   重建靜態網站 並上傳
 hexo s      服器
 hexo clean && hexo generate && hexo d 之後有更新文章輸入以下指令 (更新之後要等大約3分鐘)
 
-
 ```
+
 ### Create a new post 創建文章
 
 ``` bash
