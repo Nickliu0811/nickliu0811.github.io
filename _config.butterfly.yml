@@ -860,7 +860,7 @@ disqus:
 # tag-plugins-plus
 # see https://akilar.top/posts/615e2dec/
 tag_plugins:
-  enable: true # 开关
+  enable: false # 开关
   priority: 10 #过滤器优先权
   issues: false #issues标签开关
   link:
