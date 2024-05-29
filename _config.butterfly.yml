@@ -47,13 +47,13 @@ social:
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
 # --------------------------------------
 
-# Algolia search
+# Algolia search 阿爾戈利亞搜索
 algolia_search:
   enable: false
   hits:
     per_page: 6
 
-# Local search
+# Local search 
 local_search:
   enable: false
   preload: false
@@ -92,7 +92,9 @@ avatar:
 disable_top_img: false
 
 # 首頁橫幅圖片
+# index_img: https://lh3.googleusercontent.com/pw/AP1GczMA1heDbEb1XZEtsKhHOw3iBalYZyWp06oVgLNltnyga2olUqwWWNDAiam2CFmzYUzJib14k9nCfMuZGTMDurZmuYHGU0wyz4bnFJXjmCTz1Uxz3mef=w1920-h1080
 index_img: https://picsum.photos/1920/1080?random=10
+
 
 # 如果頁面的橫幅沒有設置，它會顯示 top_img
 default_top_img:
@@ -557,7 +559,7 @@ aside:
       link: https://github.com/Nickliu0811
   card_announcement:
     enable: true
-    content: '回歸-這是一個沒有廣告的架構，又能再次放置我的幸福人生'  #公告
+    content: '回歸-這是一個沒有廣告的架構'  #公告
   card_categories: #分類
     enable: true
     limit: 16 # 分類 數量 超過屏蔽 
