@@ -43,6 +43,7 @@ sticky: 1 #置頂
 ---
 
 {% youtube 條碼 %}
+{% youtube_loop K-jfGxPgSm0 %}
 {% gallery %}
 {% endgallery %}
 {% note info flat %}
