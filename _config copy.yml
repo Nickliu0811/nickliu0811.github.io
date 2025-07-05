@@ -1,0 +1,123 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 一起溜達吧! # 你的部落格標題
+subtitle: '太多資訊了，小雞腦袋記不了那麼多啦' # 你的部落格副標題
+description: '想留下的足跡太多了，希望能留下什麼' # 部落格簡介
+keywords: ['六哥筆記' ,'六仔人生' ,'小六人生' ,'小六單車'] # 網站關鍵字，多個關鍵字用逗號隔開
+author: Nick Liu # 作者名字
+language: zh-TW # 語言，繁體中文請設定 zh-TW
+timezone: '' # 使用系統時間即可
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://example.com # 你的正式部落格網址
+permalink: :year/:title/ # 文章路徑
+permalink_defaults:
+pretty_urls:
+  trailing_index: false # 設置 false 則會永遠移除 index.html
+  trailing_html: false # 設置 false 則會永遠移除 html
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :year-:month-:day-:title.md # 設定對應的文章原始編輯檔
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: true
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+中文分類: english-category # 一個分類一列
+tag_map:
+中文標籤: english-tag # 一個標籤一列
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'date'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/Nickliu0811/nickliu0811.github.io.git # 貼上剛剛複製的 Github Repository 網址
+  branch: master # 預設分支名稱
+  message: "Blog public update" # Commit 訊息
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10
+  hub:
+  content:
+  content_limit: 250
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
